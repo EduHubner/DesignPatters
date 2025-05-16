@@ -8,7 +8,7 @@ public class Main {
 		Comunica com3 = Comunica.getInstance();
 		
 		com1.setCodigo(1);
-		com2.setMsg("Teste");
+		com2.setMsg("Testeaa");
 		com3.setTipo(true);
 		
 		System.out.println(com1);
