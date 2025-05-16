@@ -15,8 +15,7 @@ public class Conexao {
 		if (con == null) {
 			con = new Conexao();
 			/*Class.forName(jdbcDriver);
-			con = DriverManager.getConnection("jdbc: mysql:/" + con.getCliente().getHost() + ":" + con.getCliente().getPorta() + "/meu_bd", 
-					con.getCliente().getUsuario(), con.getCliente().getSenha());*/
+			con = DriverManager.getConnection("jdbc: mysql:/" + con.getCliente().getHost() + ":" + con.getCliente().getPorta() + "/meu_bd", con.getCliente().getUsuario(), con.getCliente().getSenha());*/
 		}
 		return con;
 	}
